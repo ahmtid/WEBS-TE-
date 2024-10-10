@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
+
+:root {
+  --primary-color: #F1C40F;
+  --secondary-color: #000000;
+  --text-color: #333333;
+  --background-color: #FFFFFF;
+}
+
+body {
+  font-family: 'Tajawal', sans-serif;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.btn-secondary {
+  background-color: var(--secondary-color);
+  color: var(--background-color);
+}
+
+.header {
+  background-color: var(--primary-color);
+  padding: 60px 0;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.cta-buttons {
+  margin-top: 30px;
+}
+
+.cta-buttons .btn {
+  margin: 0 10px;
+}
+
+.about-section,
+.services-section,
+.contact-section {
+  padding: 60px 0;
+}
+
+.contact-section form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-section input,
+.contact-section textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.footer {
+  background-color: var(--secondary-color);
+  color: var(--background-color);
+  text-align: center;
+  padding: 20px 0;
+}
